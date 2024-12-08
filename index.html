@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Servicios Técnicos Especializados</title>
+  <link rel="stylesheet" href="/styles/styles.css">
+</head>
+
+<body>
+  <div class="background-animation"></div>
+  <button id="openSidebar" class="sidebar-btn">☰</button>
+
+  <!-- Barra Lateral -->
+  <div id="sidebar" class="sidebar">
+    <button id="closeSidebar" class="close-btn">✖</button>
+    <ul>
+      <li><a href="#soldadura">Soldadura y Reparaciones</a></li>
+      <li><a href="#diagnostico">Diagnóstico de Hardware</a></li>
+      <li><a href="#optimizacion">Optimización de Software</a></li>
+      <li><a href="#mantenimiento">Mantenimiento Preventivo</a></li>
+      <li><a href="#ajuste">Ajuste de Sistemas</a></li>
+      <li><a href="#instalacion">Instalación de Software</a></li>
+      <li><a href="#asesoramiento">Asesoramiento Tecnológico</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </div>
+
+  <!-- Título principal -->
+  <header>
+  </header>
+  <div class="titulo">
+    <h1>Servicios Técnicos Especializados</h1>
+    <p>Soluciones de tecnología para garantizar el rendimiento óptimo de tus equipos.</p>
+  </div>
+<!-- Servicios -->
+<section id="soldadura" class="service">
+  <div class="image-container">
+    <img src="https://via.placeholder.com/400x200" alt="Soldadura" class="service-img">
+    <div class="text-overlay">
+      <h2>Soldadura de cables y reparaciones eléctricas</h2>
+      <p>• Reparación de cables dañados.</p>
+      <p>• Unión de conexiones y restauración de circuitos básicos.</p>
+      <button class="view-more" onclick="openModal('modal-soldadura')">Ver más</button>
+    </div>
+  </div>
+</section>
+<!-- Modal 1 -->
+<div id="modal-soldadura" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('modal-soldadura')">&times;</span>
+    <div class="modal-text-titulo">
+      <h2>Soldadura de cables y reparaciones eléctricas</h2>
+    </div>
+    <div class="modal-imagenes">
+      <img src="https://via.placeholder.com/400x200" alt="Soldadura" class="modal-img">
+      <img src="https://via.placeholder.com/400x200" alt="Soldadura" class="modal-img">
+    </div>
+    <div class="modal-text-info">
+      <h2>• Reparación de cables dañados</h2>
+      <p>Reparamos cables que presentan cortes, peladuras o desgastes, utilizando técnicas de soldadura para
+        restaurar su funcionalidad y asegurar conexiones seguras y duraderas.</p>
+      <h2>• Unión de conexiones y restauración de circuitos básicos</h2>
+      <p>Realizamos uniones precisas entre cables y componentes, recuperando circuitos básicos afectados por daños o
+        malas conexiones para garantizar un flujo eléctrico eficiente.</p>
+    </div>
+  </div>
+</div>
+
+<section id="diagnostico" class="service">
+  <div class="image-container">
+    <img src="https://via.placeholder.com/400x200" alt="Diagnóstico de Hardware" class="service-img">
+    <div class="text-overlay">
+      <h2>Diagnóstico y reparación de hardware</h2>
+      <p>• Reemplazo de componentes dañados.</p>
+      <p>• Optimización del rendimiento físico del equipo.</p>
+      <button class="view-more" onclick="openModal('modal-diagnostico')">Ver más</button>
+    </div>
+  </div>
+</section>
+<!-- Modal 2 -->
+<div id="modal-diagnostico" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('modal-diagnostico')">&times;</span>
+    <div class="modal-text-titulo">
+      <h2>Diagnóstico y reparación de hardware</h2>
+    </div>
+    <div class="modal-imagenes">
+      <img src="https://via.placeholder.com/400x200" alt="Diagnóstico" class="modal-img">
+      <img src="https://via.placeholder.com/400x200" alt="Diagnóstico" class="modal-img">
+    </div>
+    <div class="modal-text-info">
+      <h2>• Reemplazo de componentes dañados</h2>
+      <p>Reemplazamos componentes como discos duros, RAM, entre otros, asegurando una alta calidad y funcionalidad.</p>
+      <h2>• Optimización del rendimiento físico del equipo</h2>
+      <p>Ajustamos el hardware para maximizar su desempeño.</p>
+    </div>
+  </div>
+</div>
+
+<section id="optimizacion" class="service">
+  <div class="image-container">
+    <img src="https://via.placeholder.com/400x200" alt="Optimización de Software" class="service-img">
+    <div class="text-overlay">
+      <h2>Optimización de software y seguridad</h2>
+      <p>• Limpieza de virus, spyware y malware.</p>
+      <p>• Instalación de software antivirus.</p>
+      <button class="view-more" onclick="openModal('modal-optimizacion')">Ver más</button>
+    </div>
+  </div>
+</section>
+<!-- Modal 3 -->
+<div id="modal-optimizacion" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('modal-optimizacion')">&times;</span>
+    <div class="modal-text-titulo">
+      <h2>Optimización de software y seguridad</h2>
+    </div>
+    <div class="modal-imagenes">
+      <img src="https://via.placeholder.com/400x200" alt="Optimización" class="modal-img">
+      <img src="https://via.placeholder.com/400x200" alt="Optimización" class="modal-img">
+    </div>
+    <div class="modal-text-info">
+      <h2>• Limpieza de virus, spyware y malware</h2>
+      <p>Eliminamos amenazas digitales para garantizar la estabilidad de tu equipo.</p>
+      <h2>• Instalación de software antivirus y configuración de seguridad</h2>
+      <p>Implementamos medidas de protección efectivas para proteger tu sistema.</p>
+    </div>
+  </div>
+</div>
+
+<section id="mantenimiento" class="service">
+  <div class="image-container">
+    <img src="https://via.placeholder.com/400x200" alt="Mantenimiento Preventivo" class="service-img">
+    <div class="text-overlay">
+      <h2>Mantenimiento preventivo</h2>
+      <p>• Limpieza interna y externa.</p>
+      <p>• Aplicación de pasta térmica en procesadores.</p>
+      <button class="view-more" onclick="openModal('modal-mantenimiento')">Ver más</button>
+    </div>
+  </div>
+</section>
+<!-- Modal 4 -->
+<div id="modal-mantenimiento" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('modal-mantenimiento')">&times;</span>
+    <div class="modal-text-titulo">
+      <h2>Mantenimiento preventivo</h2>
+    </div>
+    <div class="modal-imagenes">
+      <img src="https://via.placeholder.com/400x200" alt="Mantenimiento" class="modal-img">
+      <img src="https://via.placeholder.com/400x200" alt="Mantenimiento" class="modal-img">
+    </div>
+    <div class="modal-text-info">
+      <h2>• Limpieza interna y externa</h2>
+      <p>Eliminamos polvo y residuos para mejorar la vida útil de tu equipo.</p>
+      <h2>• Aplicación de pasta térmica en procesadores</h2>
+      <p>Utilizamos materiales de calidad para mejorar el sistema de refrigeración.</p>
+    </div>
+  </div>
+</div>
+    <!-- Contacto -->
+    <section id="contacto">
+      <h2>Contáctanos</h2>
+      <form action="https://formsubmit.co/parrabarriosbbb@gmail.com" method="POST" onsubmit="setMessageSent()">
+        <input type="text" name="name" placeholder="Tu Nombre" required>
+        <input type="email" name="email" placeholder="Tu Correo Electrónico" required>
+        <textarea name="message" rows="4" placeholder="Escribe tu mensaje" required></textarea>
+        <input type="hidden" name="_next" value="https://vercel.com/index.html#contacto">
+        <input type="hidden" name="_subject" value="Nuevo mensaje desde el formulario de contacto">
+        <div id="mensaje-confirmacion" style="display: none;"></div>
+        <button type="submit" class="enviar">Enviar</button>
+      </form>
+      <a href="https://wa.me/573134156651?text=Hola,%20estoy%20interesado%20en%20sus%20servicios" class="whatsapp-btn"
+        target="_blank">Enviar Mensaje por WhatsApp</a>
+    </section>
+    <script src="/js/script.js"></script>
+</body>
+
+</html>
